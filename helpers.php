@@ -1,14 +1,17 @@
-<?php 
+<?php
 
-function basePath($path = '') {
+function basePath($path = '')
+{
     return __DIR__ . '/' . $path;
 }
 
-function loadView($name) {
+function loadView($name)
+{
     require basePath("Views/{$name}.view.php");
 }
 
-function loadPartial($name) {
+function loadPartial($name)
+{
     $partialPath = basePath("Views/Partials/{$name}.php");
 
     if (file_exists($partialPath)) {

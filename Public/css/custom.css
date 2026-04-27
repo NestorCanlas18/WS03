@@ -7,9 +7,9 @@
   --text: #1f2937;
   --text-soft: #4b5563;
   --text-muted: #6b7280;
-  --primary: #10B981;
+  --primary: #F58f7c;
   --primary-dark: #115e59;
-  --secondary: #64748B;
+  --secondary: #2c2b30;
   --border: #d1d5db;
   --border-soft: #e5e7eb;
   --danger: #b91c1c;
@@ -312,8 +312,11 @@ img {
 
 .jobs-section-header {
   max-width: 760px;
-  margin: 0 auto 2.5rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 60px;
 }
 
 .jobs-section-badge {
@@ -509,7 +512,7 @@ img {
   gap: 1rem;
   padding: 1.8rem;
   border-radius: 18px;
-  background: #334155;
+  background: var(--secondary);
   color: #ffffff;
 }
 
@@ -644,7 +647,7 @@ textarea.form-input {
 footer {
   margin-top: 4rem;
   padding: 2.25rem 1rem;
-  background: #1f2937;
+  background: var(--secondary);
 }
 
 .footer-grid {
@@ -785,6 +788,20 @@ footer {
   background: #e5e7eb !important;
   color: #111827 !important;
   border: 1px solid #d1d5db;
+}
+
+.top-banner-under {
+  padding-inline: 10rem;
+  padding-bottom: .5rem;
+  border-bottom: 2px solid var(--secondary);
+  width: max-content;
+  margin: 0 auto;
+}
+
+.jobs-section-title-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 /* RESPONSIVE */

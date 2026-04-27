@@ -46,7 +46,7 @@ loadPartial('navbar');
                         </div>
                     </div>
 
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
 
@@ -80,7 +80,7 @@ loadPartial('navbar');
                         </div>
                     </div>
 
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
 
@@ -114,7 +114,7 @@ loadPartial('navbar');
                         </div>
                     </div>
 
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
 
@@ -148,7 +148,7 @@ loadPartial('navbar');
                         </div>
                     </div>
 
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
 
@@ -182,7 +182,7 @@ loadPartial('navbar');
                         </div>
                     </div>
 
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
 
@@ -216,7 +216,7 @@ loadPartial('navbar');
                         </div>
                     </div>
 
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
         </div>

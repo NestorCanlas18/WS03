@@ -6,18 +6,24 @@
 
 <section class="top-banner">
     <div class="container mx-auto max-w-6xl px-4">
-        <h2>Available Opportunities</h2>
-        <p>
-            Explore job openings from different categories and companies.
-        </p>
+
+        <div class="top-banner-under">
+            <h2>Available Opportunities</h2>
+            <p>
+                Explore job openings from different categories and companies.
+            </p>
+        </div>
     </div>
 </section>
 
 <section class="jobs-section">
     <div class="container mx-auto max-w-6xl px-4">
         <div class="jobs-section-header">
-            <span class="jobs-section-badge">Latest Jobs</span>
-            <h2 class="jobs-section-title">Recent Listings</h2>
+            <div class="jobs-section-title-container">
+                <h2 class="jobs-section-title">Recent Listings</h2>
+                <span class="jobs-section-badge">Latest Jobs</span>
+            </div>
+
             <p class="jobs-section-subtitle">
                 Here are some of the recently posted job opportunities.
             </p>
@@ -42,7 +48,7 @@
                             <span class="job-location">New York</span>
                         </div>
                     </div>
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
 
@@ -64,7 +70,7 @@
                             <span class="job-location">San Francisco</span>
                         </div>
                     </div>
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
 
@@ -86,7 +92,7 @@
                             <span class="job-location">Los Angeles</span>
                         </div>
                     </div>
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
 
@@ -120,7 +126,7 @@
                         </div>
                     </div>
 
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
 
@@ -154,7 +160,7 @@
                         </div>
                     </div>
 
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
 
@@ -188,7 +194,7 @@
                         </div>
                     </div>
 
-                    <a href="#" class="job-details-btn">View Details</a>
+                    <a href="/WS03/Public/listings/details" class="job-details-btn">View Details</a>
                 </div>
             </article>
         </div>
