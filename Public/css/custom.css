@@ -7,9 +7,9 @@
   --text: #1f2937;
   --text-soft: #4b5563;
   --text-muted: #6b7280;
-  --primary: #0f766e;
+  --primary: #10B981;
   --primary-dark: #115e59;
-  --secondary: #334155;
+  --secondary: #64748B;
   --border: #d1d5db;
   --border-soft: #e5e7eb;
   --danger: #b91c1c;
@@ -76,7 +76,7 @@ img {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: #1f2937;
+  background-color: var(--secondary);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -220,7 +220,7 @@ img {
   margin: 0 auto;
   padding: 1rem;
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.12);
+
 }
 
 .input-group {
@@ -269,7 +269,7 @@ img {
   min-width: 140px;
   padding: 0.95rem;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.14);
+  background: var(--primary);
   color: #ffffff;
 }
 
@@ -287,9 +287,9 @@ img {
 /* TOP BANNER */
 
 .top-banner {
-  padding: 3rem 1rem;
+  padding: 8rem 1rem;
   text-align: center;
-  background: #e5e7eb;
+  background-color: var(--primary-light);
 }
 
 .top-banner h2 {

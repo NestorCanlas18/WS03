@@ -1,7 +1,7 @@
 <?php
-loadPartial('head');
-loadPartial('navbar');
-loadPartial('showcase');
+    loadPartial('head');
+    loadPartial('navbar');
+    loadPartial('showcase');
 ?>
 
 <section class="top-banner">
